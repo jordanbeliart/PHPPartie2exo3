@@ -8,12 +8,10 @@ $gender = 'Femme';
     <title>PHP Partie2 exo3</title>
   </head>
   <body>
-    <?php
-      if ($gender != 'Homme') {
-        echo 'C\'est une développeuse !!!';
-      } else {
-        echo 'C\'est un développeur !!!';
-      }
-    ?>
+    <?php if($gender != 'Homme'){ ?>
+        C'est une développeuse !!!
+    <?php } else{ ?>
+        C'est un développeur !!!
+    <?php } ?>
   </body>
 </html>
